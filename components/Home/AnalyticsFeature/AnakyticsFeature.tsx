@@ -29,7 +29,7 @@ const AnalyticsFeature = () => {
             Get insights into user behavior, track engagement, and make
             data-driven decisions to enhance your application. Our analytics
             tools are designed to be user-friendly and customizable, allowing
-            you to tailor the data to your specific needs. Whether you're
+            you to tailor the data to your specific needs. Whether you&apos;re
             looking to monitor user activity, track conversions, or analyze
             performance metrics, our platform provides the tools you need to
             succeed.
