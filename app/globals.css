@@ -1,26 +1,19 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@layer utilities {
+  .nav__link {
+    /* layout + text */
+    @apply relative inline-block text-base font-medium;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* the underline bar */
+    @apply after:content-[''] after:absolute after:left-0 after:bottom-0
+           after:h-[3px] after:w-full after:bg-pink-600
+           after:scale-x-0 after:origin-right
+           after:transition-transform after:duration-300;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  /* put hover variants in a separate rule for reliability */
+  .nav__link:hover {
+    @apply after:scale-x-100 after:origin-left;
+  }
 }
