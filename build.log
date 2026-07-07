@@ -1,0 +1,46 @@
+
+> landingpagewithanimations@0.1.0 build
+> next build --turbopack
+
+   ▲ Next.js 15.5.20 (Turbopack)
+
+   Creating an optimized production build ...
+ ✓ Finished writing to disk in 824ms
+ ✓ Compiled successfully in 8.0s
+   Linting and checking validity of types ...
+
+./components/Home/AnalyticsFeature/AnakyticsFeature.tsx
+3:10  Warning: 'FaCheck' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./components/Home/Feature/Feature.tsx
+13:10  Warning: 'FaD' is defined but never used.  @typescript-eslint/no-unused-vars
+14:10  Warning: 'text' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./components/Home/Home.tsx
+2:15  Warning: 'init' is defined but never used.  @typescript-eslint/no-unused-vars
+
+./components/Home/Review/ReviewCard.tsx
+34:11  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+   Collecting page data ...
+   Generating static pages (0/5) ...
+   Generating static pages (1/5) 
+   Generating static pages (2/5) 
+   Generating static pages (3/5) 
+ ✓ Generating static pages (5/5)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                         Size  First Load JS
+┌ ○ /                            22.7 kB         143 kB
+└ ○ /_not-found                      0 B         121 kB
++ First Load JS shared by all     128 kB
+  ├ chunks/4ee574f56b8250fb.js   20.8 kB
+  ├ chunks/7625966760a80180.js   59.2 kB
+  ├ chunks/8082ab48faca5ea1.js   17.2 kB
+  └ other shared chunks (total)    31 kB
+
+
+○  (Static)  prerendered as static content
+
