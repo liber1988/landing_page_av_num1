@@ -54,7 +54,7 @@ function Feature() {
   ];
 
   return (
-    <div className="bg-pink-50 pt-20 pb-20">
+    <div id="services" className="bg-pink-50 pt-20 pb-20">
       <div className="w-[80%] mx-auto text-center">
         <h1 className="mt-6 text-2xl md:text-3xl capitalize font-bold text-center">
           Its Everything you will ever need

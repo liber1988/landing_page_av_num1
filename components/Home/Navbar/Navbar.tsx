@@ -31,7 +31,7 @@ const Nav = ({ openNav }: Props) => {
       <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* LOGO */}
         <h1 className="text-xl md:text-3xl font-extrabold">
-          <span className="text-3xl md:text-4xl text-pink-700">L</span>iber
+          <span className="text-3xl md:text-4xl text-pink-700">L</span>iberman
         </h1>
 
         {/* LINKS */}

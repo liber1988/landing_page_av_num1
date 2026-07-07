@@ -2,7 +2,7 @@ import WhyChooseCard from "./WhyChooseCard";
 
 const WhyChoose = () => {
   return (
-    <div className="pt-16 pb-16">
+    <div id="testimonial" className="pt-16 pb-16">
       <h1 className="mt-6 text-2xl md:text-3xl capitalize font-bold text-center">
         Why you choose this application
       </h1>

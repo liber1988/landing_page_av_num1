@@ -16,11 +16,11 @@ const Footer = () => {
           <a href="#home" className="hover:text-gray-800 transition">
             Home
           </a>
-          <a href="#features" className="hover:text-gray-800 transition">
-            Features
+          <a href="#analytics" className="hover:text-gray-800 transition">
+            Analytics
           </a>
-          <a href="#pricing" className="hover:text-gray-800 transition">
-            Pricing
+          <a href="#services" className="hover:text-gray-800 transition">
+            Services
           </a>
           <a href="#contact" className="hover:text-gray-800 transition">
             Contact

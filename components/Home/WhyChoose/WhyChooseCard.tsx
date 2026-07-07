@@ -19,7 +19,7 @@ const WhyChooseCard = ({ image, title, linkText }: Props) => {
       <h1 className="text-center mt-5 text-lg mb-5 font-semibold text-gray-800">
         {title}
       </h1>
-      <p className="text-center text-gray-600 font-medium mb-7 tesxt-sm">
+      <p className="text-center text-gray-600 font-medium mb-7 text-sm">
         kjsdkjfkjsdfkjsdkfjsdkjfksdjfksdjfkj
       </p>
       <p className="text-center text-blue-900 font-semibold cursor-pointer hover:text-blue-950 transition-all duration-200">
